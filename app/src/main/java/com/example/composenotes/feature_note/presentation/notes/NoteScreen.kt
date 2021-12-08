@@ -1,4 +1,4 @@
-package com.example.composenotes.feature_note.presentation.notes.component
+package com.example.composenotes.feature_note.presentation.notes
 
 import androidx.compose.animation.*
 import androidx.compose.foundation.clickable
@@ -16,12 +16,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
-import com.example.composenotes.feature_note.domain.model.Note
-import com.example.composenotes.feature_note.domain.util.NoteOrder
-import com.example.composenotes.feature_note.presentation.notes.NoteViewModel
-import com.example.composenotes.feature_note.presentation.notes.NotesEvent
+import com.example.composenotes.feature_note.presentation.notes.component.NoteItem
+import com.example.composenotes.feature_note.presentation.notes.component.OrderSection
 import com.example.composenotes.feature_note.presentation.util.Screen
-import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 
 @ExperimentalAnimationApi
